@@ -433,7 +433,23 @@ nav {
   padding: 0px 10px;
 }
 
-/* Le code ci-dessous correspond à la version responsive uniquement */
+/****** Footer ***********/
+
+footer {
+  display: flex;
+  margin-top: 35px;
+  margin-bottom: 0px;
+}
+
+.column {
+  width: 33%;
+  background-color: var(--main-bg-color);
+  padding-left: 15px;
+}
+
+.column li {
+  margin-top: 15px;
+}
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
