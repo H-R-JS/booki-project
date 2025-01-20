@@ -253,6 +253,7 @@ nav {
   display: flex;
   gap: 30px;
   margin-bottom: 30px;
+  margin-right: 10px;
 }
 
 .hebergements-cards a {
@@ -605,16 +606,15 @@ footer {
   }
 
   .search-bar {
-    width: 100%;
+    width: 96%;
   }
 
   .search-form {
     width: 100%;
-    max-width: 350px;
   }
 
   .search-input {
-    width: 72%;
+    width: 100%;
     font-size: 16px;
     border-top: 1px solid var(--main-bg-color);
     border-bottom: 1px solid var(--main-bg-color);
@@ -648,11 +648,13 @@ footer {
     width: 100%;
     padding-left: 0px;
     min-width: 320px;
+    margin-top: 20px;
   }
 
   .filter {
     margin-bottom: 15px;
     font-size: 14px;
+    width: 40%;
   }
 
   .filter-icon {
