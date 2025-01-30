@@ -654,8 +654,8 @@ footer {
   .filter-bar {
     width: 320px;
     height: 178px;
-    min-width: 200px;
     gap: 10px;
+    width: 100%;
   }
 
   .filter-container ul {
