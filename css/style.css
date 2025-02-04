@@ -463,13 +463,13 @@ footer nav {
   width: 100%;
 }
 
-.column {
+.footer-column {
   width: 33%;
   background-color: var(--main-bg-color);
   padding-left: 15px;
 }
 
-.column li {
+.footer-column li {
   margin-top: 15px;
 }
 
@@ -817,14 +817,14 @@ footer nav {
     flex-direction: column;
   }
 
-  .column {
+  .footer-column {
     width: 100%;
     padding: 30px;
     margin-top: 0px;
     margin: 0;
   }
 
-  .column li {
+  .footer-column li {
     width: 100%;
   }
 }
